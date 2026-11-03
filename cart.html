@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Your Cart | ClearView Opticals</title>
+
+    <meta
+      name="description"
+      content="Discover quality eyewear, stylish frames and professional eye care services at ClearView Opticals. Book an appointment or explore our collection."
+    />
+
+    <meta name="author" content="ClearView Opticals" />
+
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      property="og:title"
+      content="ClearView Opticals | See Clearly. Live Fully."
+    />
+
+    <meta
+      property="og:description"
+      content="Discover quality eyewear and professional eye care services at ClearView Opticals."
+    />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image" content="images/clearview-preview.jpg" />
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="clearview-favicon.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="header">
+      <nav class="navbar container">
+        <a href="index.html" class="logo">
+          CLEARVIEW
+          <span>OPTICALS</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="appointments.html">Appointments</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+        </ul>
+
+        <a href="cart.html" class="cart-link">
+          Cart <span id="cartCount">0</span>
+        </a>
+      </nav>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">YOUR SELECTION</p>
+          <h1>Shopping Cart</h1>
+          <p>Review your selected eyewear before proceeding.</p>
+        </div>
+
+        <div id="cartContainer">
+          <!-- JavaScript will display cart items here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="currentYear"></span>
+            ClearView Opticals. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/product.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/cart.js"></script>
+  </body>
+</html>

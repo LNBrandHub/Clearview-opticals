@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Shop Eyewear | ClearView Opticals</title>
+
+    <meta
+      name="description"
+      content="Discover quality eyewear, stylish frames and professional eye care services at ClearView Opticals. Book an appointment or explore our collection."
+    />
+
+    <meta name="author" content="ClearView Opticals" />
+
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      property="og:title"
+      content="ClearView Opticals | See Clearly. Live Fully."
+    />
+
+    <meta
+      property="og:description"
+      content="Discover quality eyewear and professional eye care services at ClearView Opticals."
+    />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image" content="images/clearview-preview.jpg" />
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="clearview-favicon.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar container">
+        <a href="index.html" class="logo">
+          CLEARVIEW
+          <span>OPTICALS</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="active">Shop</a></li>
+          <li><a href="appointments.html">Appointments</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+        </ul>
+
+        <a href="cart.html" class="cart-link">
+          Cart <span id="cartCount">0</span>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="shop-hero">
+        <div class="container">
+          <span class="eyebrow">THE CLEARVIEW COLLECTION</span>
+
+          <h1>Find your perfect frame.</h1>
+
+          <p>
+            Explore eyewear designed to complement your personality and everyday
+            style.
+          </p>
+        </div>
+      </section>
+
+      <section class="shop-section container">
+        <div class="shop-toolbar">
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-category="All">
+              All Frames
+            </button>
+
+            <button class="filter-btn" data-category="Men">Men's</button>
+
+            <button class="filter-btn" data-category="Women">Women's</button>
+
+            <button class="filter-btn" data-category="Unisex">Unisex</button>
+          </div>
+
+          <p id="productCount"></p>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+          <!-- JavaScript will generate products here -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <a href="index.html" class="logo footer-logo">
+          CLEARVIEW
+          <span>OPTICALS</span>
+        </a>
+
+        <p>See Clearly. Live Fully.</p>
+
+        <p class="copyright">
+          © <span id="currentYear"></span>
+          ClearView Opticals. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/product.js"></script>
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/shop.js"></script>
+  </body>
+</html>

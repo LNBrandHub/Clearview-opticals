@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ClearView Opticals | Quality Eyewear & Eye Care</title>
+
+    <meta
+      name="description"
+      content="Discover quality eyewear, stylish frames and professional eye care services at ClearView Opticals. Book an appointment or explore our collection."
+    />
+
+    <meta name="author" content="ClearView Opticals" />
+
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      property="og:title"
+      content="ClearView Opticals | See Clearly. Live Fully."
+    />
+
+    <meta
+      property="og:description"
+      content="Discover quality eyewear and professional eye care services at ClearView Opticals."
+    />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image" content="images/clearview-preview.jpg" />
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="clearview-favicon.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="header">
+      <nav class="navbar container">
+        <a href="index.html" class="logo">
+          CLEARVIEW
+          <span>OPTICALS</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="appointments.html">Appointments</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+        </ul>
+
+        <a href="cart.html" class="cart-link">
+          Cart <span id="cartCount">0</span>
+        </a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+      <section class="hero">
+        <div class="hero-content container">
+          <div class="hero-text">
+            <span class="eyebrow"> YOUR VISION, OUR PRIORITY </span>
+
+            <h1>
+              See the world
+              <span>more clearly.</span>
+            </h1>
+
+            <p>
+              Discover eyewear that complements your style and eye care services
+              that put your vision first.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="shop.html" class="btn btn-primary">
+                Explore Collection
+              </a>
+
+              <a href="appointments.html" class="btn btn-outline">
+                Book an Appointment
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <img
+              src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=1000"
+              alt="Stylish eyewear collection"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Trust Section -->
+      <section class="trust-section">
+        <div class="container trust-content">
+          <div>
+            <strong>Quality Eyewear</strong>
+            <span>Frames for every style</span>
+          </div>
+
+          <div>
+            <strong>Professional Care</strong>
+            <span>Vision-focused services</span>
+          </div>
+
+          <div>
+            <strong>Personal Attention</strong>
+            <span>Care that puts you first</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="section container" id="about">
+        <div class="section-heading">
+          <span class="eyebrow">WHAT WE OFFER</span>
+          <h2>More than just eyewear.</h2>
+          <p>
+            From professional eye care to carefully selected eyewear, we're here
+            to help you see better.
+          </p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon">01</div>
+            <h3>Eye Examinations</h3>
+            <p>Book an appointment for a professional vision assessment.</p>
+            <a href="appointments.html">Book a visit →</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">02</div>
+            <h3>Optical Frames</h3>
+            <p>
+              Explore a selection of stylish frames designed for everyday
+              comfort.
+            </p>
+            <a href="shop.html">Explore frames →</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">03</div>
+            <h3>Prescription Lenses</h3>
+            <p>
+              Find lens options suited to your prescription and visual needs.
+            </p>
+            <a href="shop.html">Explore options →</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Featured Products -->
+      <!-- Promo Banner -->
+      <section class="promo-banner">
+        <div class="container promo-content">
+          <div class="promo-text">
+            <span class="promo-badge">LIMITED TIME</span>
+            <h2>Free eye exam with any frame purchase.</h2>
+            <p>
+              Book your appointment this month and enjoy a complimentary vision
+              screening when you order a complete pair of glasses.
+            </p>
+          </div>
+          <div class="promo-actions">
+            <a href="appointments.html" class="btn btn-light">Book Now</a>
+            <a href="shop.html" class="promo-link">Shop Frames →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Products -->
+      <section class="featured-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">OUR COLLECTION</span>
+            <h2>Find your perfect frame.</h2>
+            <p>
+              Explore eyewear that brings together comfort, quality and personal
+              style.
+            </p>
+          </div>
+
+          <div class="product-grid featured-grid" id="featuredGrid"></div>
+
+          <div class="featured-cta">
+            <a href="shop.html" class="btn btn-primary">View All Frames</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Best Sellers -->
+      <section class="bestsellers-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">MOST LOVED</span>
+            <h2>Best sellers.</h2>
+            <p>The frames our customers keep coming back for.</p>
+          </div>
+
+          <div class="product-grid bestsellers-grid" id="bestsellersGrid"></div>
+
+          <div class="featured-cta">
+            <a href="shop.html" class="btn btn-outline"
+              >Explore the Full Collection</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Appointment CTA -->
+      <section class="appointment-cta">
+        <div class="container cta-content">
+          <div>
+            <span class="eyebrow">TAKE THE FIRST STEP</span>
+            <h2>Your vision deserves attention.</h2>
+            <p>
+              Schedule an appointment with our clinic and take better care of
+              your eyes.
+            </p>
+          </div>
+
+          <a href="appointments.html" class="btn btn-light">
+            Book an Appointment
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <a href="index.html" class="logo footer-logo">
+          CLEARVIEW
+          <span>OPTICALS</span>
+        </a>
+
+        <p>See Clearly. Live Fully.</p>
+
+        <p class="copyright">
+          © <span id="currentYear"></span>
+          ClearView Opticals. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/product.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/featured.js"></script>
+    <script src="assets/js/bestsellers.js"></script>
+  </body>
+</html>
